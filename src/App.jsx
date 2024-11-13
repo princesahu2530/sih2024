@@ -9,6 +9,7 @@ import Login from './pages/Login'
 import AlumniProfile from './pages/AlumniProfile'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Donation from './pages/DonationPage';
 function App() {
   
 
@@ -24,6 +25,8 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/alumni/:alumniId' element ={<AlumniProfile/>}/>
         <Route path='/my-profile' element={<MyProfile/>}/>
+        <Route path='/donate' element={<Donation/>}/>
+
       </Routes>
       <Footer/>
     </div>
