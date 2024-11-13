@@ -27,6 +27,10 @@ const Donation = () => {
               <input type="text" id="alumniName" className="w-full mt-2 p-2 border rounded-md" placeholder="Enter your name" />
             </div>
             <div>
+              <label htmlFor="collegeID" className="text-gray-800 font-medium">College ID</label>
+              <input type="text" id="collegeID" className="w-full mt-2 p-2 border rounded-md" placeholder="Enter your roll number" />
+            </div>
+            <div>
               <label htmlFor="message" className="text-gray-800 font-medium">Message</label>
               <textarea id="message" className="w-full mt-2 p-2 border rounded-md" rows="4" placeholder="Leave a message (optional)" />
             </div>
@@ -103,4 +107,3 @@ const Donation = () => {
 };
 
 export default Donation;
-
